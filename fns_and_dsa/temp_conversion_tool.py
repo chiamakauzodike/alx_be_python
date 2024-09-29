@@ -14,3 +14,8 @@ def main():
     if unit == "F":
         celcius = convert_to_celsius(temperature)
         print(f"{temperature}°F is {celsius}°C"}
+    elif unit =="C":
+        fahrenheit = convert_to_fahrenheit(temperature)
+        print(f"{temperature}°C is (fahrenheit}°F")
+    else:
+        print("Invalid temperature. Please enter a numeric value.")
